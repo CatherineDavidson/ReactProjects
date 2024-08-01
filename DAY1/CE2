@@ -1,0 +1,29 @@
+
+
+
+function DataType()
+{
+    let myobject={name:"Madras"};
+    let newObject= myobject;
+    newObject.name="Chennai";
+
+    let myArray=["a","e","i","o"];
+    let vowelArray=myArray;
+    myArray.push("u");
+
+    console.log("\nObject: "+newObject.name+"\nArray: "+vowelArray);
+    alert("Check the console Output!");
+}
+
+function app()
+{
+    return(
+        <div className="App">
+            <h1>Let we see the output in JAVASCRIPT!</h1>
+           
+            <button onClick={DataType}>CE2</button>&nbsp;
+           
+        </div>
+    )
+}
+export default app;
