@@ -1,0 +1,28 @@
+
+function cy1()
+{
+    const name1="Kabil";
+    const name2="Kabil";
+    const object1={name:"Kabil"};
+    const object2={name:"Kabil"};
+    if(object1===object2) 
+        console.log("obj1=obj2");
+    else
+        console.log("obj1!=obj2");
+    if(name1===name2)
+    console.log("name1 = name 2");
+    else
+    console.log("name1 != name 2");
+}
+
+function app()
+{
+    return(
+        <div className="App">
+            <h1>Let we see the output in JAVASCRIPT!</h1>
+           
+            <button onClick={cy1}>CY1</button>&nbsp;
+        </div>
+    )
+}
+export default app;
