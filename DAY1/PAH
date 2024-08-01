@@ -1,0 +1,38 @@
+
+
+
+function pah()
+{
+    let age=18;
+    let name="Kiran";
+    let setStatus=false;
+    let userDefined=undefined;
+    let responseValue=null;
+    console.log(age);
+    console.log(name);
+    console.log(setStatus);
+    console.log(userDefined);
+    console.log(responseValue);
+
+    let oldage=age;
+    age=25;
+    let status=setStatus;
+    setStatus=true;
+    console.log(oldage);
+    console.log(age);
+    console.log(setStatus);
+    console.log(status);
+    alert("Check the console output");
+}
+
+function app()
+{
+    return(
+        <div className="App">
+            <h1>Let we see the output in JAVASCRIPT!</h1>
+            
+            <button onClick={pah}>PAH2</button>&nbsp;
+        </div>
+    )
+}
+export default app;
