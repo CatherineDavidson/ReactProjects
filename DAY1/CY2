@@ -1,0 +1,26 @@
+
+function cy2()
+{
+    let arr1=["9","25","36"];
+    let arr2=["a","b","c"];
+    let con=arr1.concat(arr2);
+    const str=arr1.toString();
+    const mp=arr1.map(Math.sqrt);
+    arr1.push("99");
+    var arr=["North","East","West","South"];
+    let cona="News";
+    const mpc=arr.map(arr=>arr+cona);
+    alert("concat = "+con+"\nString = "+str+"\nmap = "+mp+"\npush = "+arr1 +"\npop = "+arr1.pop()+"\n"+mpc);
+}
+
+function app()
+{
+    return(
+        <div className="App">
+            <h1>Let we see the output in JAVASCRIPT!</h1>
+           
+            <button onClick={cy2}>CY2</button>&nbsp;
+        </div>
+    )
+}
+export default app;
