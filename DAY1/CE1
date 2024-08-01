@@ -1,1 +1,18 @@
 
+
+function fmsg(){
+    alert("Message from Javascript Alert!");
+    console.log("Message to developer");
+}
+
+function app()
+{
+    return(
+        <div className="App">
+            <h1>Let we see the output in JAVASCRIPT!</h1>
+            <button onClick={fmsg}>CE1</button>&nbsp;
+            
+        </div>
+    )
+}
+export default app;
