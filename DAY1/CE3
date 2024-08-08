@@ -1,0 +1,11 @@
+function World()
+{
+    return(
+        <div>
+            <h1>
+                This is world functional Component;
+            </h1>
+        </div>
+    );
+}
+export default World;
